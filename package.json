@@ -1,0 +1,22 @@
+{
+  "name": "grafalerts",
+  "version": "1.0.0",
+  "description": "RESTful listener to grafana alerts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "dom fish",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "exec": "^0.2.1",
+    "express": "^4.15.3"
+  }
+}
