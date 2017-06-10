@@ -2,8 +2,9 @@
 module.exports = function(app) {
   var grafAlerts = require('../controllers/grafAlertsController');
 
+app.route('/')
+    .get(grafAlerts.get_root);
 
-  // grafAlerts Routes
   app.route('/sendCentreon')
-    .post(grafAlerts.send_to_centreon);
+    .post(grafAlerts.post_centreon);
 };
